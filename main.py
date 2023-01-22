@@ -5,7 +5,7 @@ instance = vlc.Instance("--no-xlib")
 player = instance.media_player_new()
 
 # Set the video as the media to play
-media = instance.media_new("yaai.mp4")
+media = instance.media_new("youareanidiot!!.mp4")
 player.set_media(media)
 
 # Set the video to loop
